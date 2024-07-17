@@ -40,7 +40,7 @@ This will create a folder named `app` containing the compiled class files.
 
 ### Example
 
-To run the application with a pattern `bbbbbssbbbbsbbb`, length `20`, and interpolation method `linear`, use:
+To scale the pattern to a length `500`, use:
    ```sh
    java -cp app application.Main 500
 
