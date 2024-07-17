@@ -2,7 +2,7 @@
 
 In this repository, I implement a task for Rockbite as a Java engineer. You can find the task details via the following [link](https://docs.google.com/document/d/1wU8DQgKbrZFo339UeqLqgrz01vDkK-ijVOIOEFrmK0k/edit).
 
-This repository contains a small Java project that takes a pattern of the form `'bbbbbssbbbbsbbb'` (consisting of two characters 'b' and 's'), an integer `N`, and a method of interpolation, and outputs a new string of length `N` that mimics the statistical structure of the initial string in terms of 'b' and 's' occurrences.
+This repository contains a small Java project which takes an integer `N` and outputs the  scaled version of reward pattern `'bbbbbbbbbsbbbbbbbbsbbbsbbbsbbbbsbsbbsbsbbsbbsbsbsbsbssbsbsbsbsbsssbsssbssbssbsssssbssssssbssssssssss'` to a length `N`, which mimics the statistical structure of the initial string in terms of 'b' and 's' occurrences.
 
 ## Getting Started
 
@@ -33,18 +33,15 @@ This will create a folder named `app` containing the compiled class files.
 
 4. **Run the Application:**
    ```sh
-   java -cp app application.Main <pattern> <N> <interpolation_method>
+   java -cp app application.Main <N> 
    ```
    here
-   - `<pattern>`: Replace with the pattern you want to scale (e.g., `bbbbbssbbbbsbbb`).
    - `<N>`: Replace with the desired length of the resulting pattern.
-   - `<interpolation_method>`: Replace with one of the following interpolation methods:
-      - linear
 
 ### Example
 
 To run the application with a pattern `bbbbbssbbbbsbbb`, length `20`, and interpolation method `linear`, use:
    ```sh
-   java -cp app application.Main bbbbbssbbbbsbbb 20 linear
+   java -cp app application.Main 500
 
 
